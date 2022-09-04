@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Vinay Kumar</title>
+    <link>http://linuxinet.github.io/tags/</link>
+    <description>Recent content in Tags on Vinay Kumar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 07 Aug 2022 07:01:11 +0000</lastBuildDate><atom:link href="http://linuxinet.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>android</title>
+      <link>http://linuxinet.github.io/tags/android/</link>
+      <pubDate>Sun, 07 Aug 2022 07:01:11 +0000</pubDate>
+      
+      <guid>http://linuxinet.github.io/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>frida</title>
+      <link>http://linuxinet.github.io/tags/frida/</link>
+      <pubDate>Sun, 07 Aug 2022 07:01:11 +0000</pubDate>
+      
+      <guid>http://linuxinet.github.io/tags/frida/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>http://linuxinet.github.io/tags/security/</link>
+      <pubDate>Sun, 07 Aug 2022 07:01:11 +0000</pubDate>
+      
+      <guid>http://linuxinet.github.io/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>termux</title>
+      <link>http://linuxinet.github.io/tags/termux/</link>
+      <pubDate>Sun, 07 Aug 2022 07:01:11 +0000</pubDate>
+      
+      <guid>http://linuxinet.github.io/tags/termux/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

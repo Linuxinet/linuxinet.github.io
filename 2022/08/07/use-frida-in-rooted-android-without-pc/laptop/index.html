@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Use Frida in Rooted Android Without PC/laptop // Vinay Kumar</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.101.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Vinay Kumar" />
+    <meta name="description" content="In this tuorial we will see how to use Frida gadget on rooted android device without pc/laptop" />
+    <link rel="stylesheet" href="http://linuxinet.github.io/css/main.min.4a7ec8660f9a44b08c4da97c5f2e31b1192df1d4d0322e65c0dbbc6ecb1b863f.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Use Frida in Rooted Android Without PC/laptop"/>
+<meta name="twitter:description" content="In this tuorial we will see how to use Frida gadget on rooted android device without pc/laptop"/>
+
+    <meta property="og:title" content="Use Frida in Rooted Android Without PC/laptop" />
+<meta property="og:description" content="In this tuorial we will see how to use Frida gadget on rooted android device without pc/laptop" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://linuxinet.github.io/2022/08/07/use-frida-in-rooted-android-without-pc/laptop/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-08-07T07:01:11+00:00" />
+<meta property="article:modified_time" content="2022-08-07T07:01:11+00:00" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="http://linuxinet.github.io/"><img class="app-header-avatar" src="/logo.png" alt="Vinay Kumar" /></a>
+      <h1>Vinay Kumar</h1>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">Home</a>
+             / 
+          
+          <a class="app-header-menu-item" href="/tags/">Tags</a>
+             / 
+          
+          <a class="app-header-menu-item" href="/about/">About</a>
+      </nav>
+      <p>Geek</p>
+      <div class="app-header-social">
+        
+          <a href="https://github.com/Linuxinet" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>Github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg>
+          </a>
+        
+          <a href="https://twitter.com/R007_BR34K3R" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>Twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg>
+          </a>
+        
+          <a href="https://www.linkedin.com/in/vinay-kumar-rasala-b79b331a7" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-linkedin">
+  <title>Linkedin</title>
+  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Use Frida in Rooted Android Without PC/laptop</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Aug 7, 2022
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          2 min read
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="http://linuxinet.github.io/tags/frida/">frida</a>
+              <a class="tag" href="http://linuxinet.github.io/tags/termux/">termux</a>
+              <a class="tag" href="http://linuxinet.github.io/tags/android/">android</a>
+              <a class="tag" href="http://linuxinet.github.io/tags/security/">security</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>In this tuorial we will see how to use Frida gadget on rooted android device without pc/laptop</p>
+<hr>
+<h2 id="what-is-frida">What is Frida?</h2>
+<p>it’s a dynamic code instrumentation toolkit. It lets you inject snippets of JavaScript or your own library into native apps on Windows, macOS, GNU/Linux, iOS, Android, and QNX. Frida also provides you with some simple tools built on top of the Frida API. These can be used as-is, tweaked to your needs, or serve as examples of how to use the API. <a href="https://frida.re/docs/home/">Read more about frida</a></p>
+<h2 id="usage">Usage</h2>
+<p>Typically pc/laptop is used to interact with android apps via adb. Now we can use only rooted device and do interact with applications in that mobile.</p>
+<h2 id="setup">Setup</h2>
+<h3 id="prerequisites">Prerequisites:</h3>
+<pre><code>1. Rooted Device
+2. Termux with python pre-installed
+3. Common sense
+</code></pre>
+<h3 id="instructions">Instructions</h3>
+<p>First of all install Frida with pip, for other ways <a href="https://github.com/frida/frida/#two-ways-to-install">click here</a></p>
+<pre tabindex="0"><code>pip install frida-tools
+</code></pre><p>Now download latest Frida-server android binary from the frida github <a href="https://github.com/frida/frida/releases/">Link</a>.</p>
+<pre tabindex="0"><code>wget https://github.com/frida/frida/releases/download/15.2.2/frida-server-15.2.2-android-arm64.xz
+</code></pre><p>extract the file</p>
+<pre tabindex="0"><code>xz -d frida-server-15.2.2-android-arm64.xz
+</code></pre><p>now move that binary file to <code>/data/local/tmp/</code> folder by using termux or any root file explorer.</p>
+<pre tabindex="0"><code>sudo mv frida-server-15.2.2-android-arm64 /data/local/tmp/frida-server
+</code></pre><blockquote>
+<p>here i used sudo to move the file to <code>/data/local/tmp</code>.
+so make sure you already have sudo in termux, otherwise install sudo with this command
+<code>pkg install tsu</code></p>
+</blockquote>
+<p>now change to root user in termux</p>
+<pre tabindex="0"><code>su
+</code></pre><p>change to the <strong>Frida-server</strong> binary location i.e, <code>/data/local/tmp/frida-server</code></p>
+<pre tabindex="0"><code>cd /data/local/tmp/
+</code></pre><p>give permission to that binary</p>
+<pre tabindex="0"><code>chmod 777 frida-server
+</code></pre><p><img src="images/root-su-data-local.png" alt="image">
+now run frida-server listening on localhost as root user</p>
+<pre tabindex="0"><code>./frida-server -l 127.0.0.1:1234
+</code></pre><p>now open another tab and use frida cli tools we installed previously
+For more information on Frida usage visit <a href="https://frida.re/docs/quickstart/">here</a></p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
