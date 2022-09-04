@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vinay Kumar</title>
-    <link>http://linuxinet.github.io/</link>
+    <link>https://linuxinet.github.io/</link>
     <description>Recent content on Vinay Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 07 Aug 2022 07:01:11 +0000</lastBuildDate><atom:link href="http://linuxinet.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Aug 2022 07:01:11 +0000</lastBuildDate><atom:link href="https://linuxinet.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://linuxinet.github.io/about/</link>
+      <link>https://linuxinet.github.io/about/</link>
       <pubDate>Tue, 09 Aug 2022 06:32:14 +0000</pubDate>
       
-      <guid>http://linuxinet.github.io/about/</guid>
+      <guid>https://linuxinet.github.io/about/</guid>
       <description>Welcome to Vinay Kumar&amp;rsquo;s Blog 👁️‍🗨️ About me 👁️‍🗨️ 🔭 I’m currently working on something cool :wink: 🌱 I’m currently learning Go, Android Security 💬 Ask me about anything related to Bugbounty &amp;amp; CTF 📫 How to reach me: @R007_BR34K3R 👯 I’m looking to collaborate on Bughunting. ⚡ Fun fact: I ♥️ 🐶s and Anime 🔗 Connect with me Highlight Projects 📉 GitHub Stats Thank you for reading 🙋🏻‍♂️ </description>
     </item>
     
     <item>
       <title>Use Frida in Rooted Android Without PC/laptop</title>
-      <link>http://linuxinet.github.io/2022/08/07/use-frida-in-rooted-android-without-pc/laptop/</link>
+      <link>https://linuxinet.github.io/2022/08/07/use-frida-in-rooted-android-without-pc/laptop/</link>
       <pubDate>Sun, 07 Aug 2022 07:01:11 +0000</pubDate>
       
-      <guid>http://linuxinet.github.io/2022/08/07/use-frida-in-rooted-android-without-pc/laptop/</guid>
+      <guid>https://linuxinet.github.io/2022/08/07/use-frida-in-rooted-android-without-pc/laptop/</guid>
       <description>In this tuorial we will see how to use Frida gadget on rooted android device without pc/laptop
 What is Frida? it’s a dynamic code instrumentation toolkit. It lets you inject snippets of JavaScript or your own library into native apps on Windows, macOS, GNU/Linux, iOS, Android, and QNX. Frida also provides you with some simple tools built on top of the Frida API. These can be used as-is, tweaked to your needs, or serve as examples of how to use the API.</description>
     </item>

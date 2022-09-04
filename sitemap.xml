@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://linuxinet.github.io/about/</loc>
+    <loc>https://linuxinet.github.io/about/</loc>
     <lastmod>2022-08-09T06:32:14+00:00</lastmod>
   </url><url>
-    <loc>http://linuxinet.github.io/tags/android/</loc>
+    <loc>https://linuxinet.github.io/tags/android/</loc>
     <lastmod>2022-08-07T07:01:11+00:00</lastmod>
   </url><url>
-    <loc>http://linuxinet.github.io/tags/frida/</loc>
+    <loc>https://linuxinet.github.io/tags/frida/</loc>
     <lastmod>2022-08-07T07:01:11+00:00</lastmod>
   </url><url>
-    <loc>http://linuxinet.github.io/posts/</loc>
+    <loc>https://linuxinet.github.io/posts/</loc>
     <lastmod>2022-08-07T07:01:11+00:00</lastmod>
   </url><url>
-    <loc>http://linuxinet.github.io/tags/security/</loc>
+    <loc>https://linuxinet.github.io/tags/security/</loc>
     <lastmod>2022-08-07T07:01:11+00:00</lastmod>
   </url><url>
-    <loc>http://linuxinet.github.io/tags/</loc>
+    <loc>https://linuxinet.github.io/tags/</loc>
     <lastmod>2022-08-07T07:01:11+00:00</lastmod>
   </url><url>
-    <loc>http://linuxinet.github.io/tags/termux/</loc>
+    <loc>https://linuxinet.github.io/tags/termux/</loc>
     <lastmod>2022-08-07T07:01:11+00:00</lastmod>
   </url><url>
-    <loc>http://linuxinet.github.io/2022/08/07/use-frida-in-rooted-android-without-pc/laptop/</loc>
+    <loc>https://linuxinet.github.io/2022/08/07/use-frida-in-rooted-android-without-pc/laptop/</loc>
     <lastmod>2022-08-07T07:01:11+00:00</lastmod>
   </url><url>
-    <loc>http://linuxinet.github.io/</loc>
+    <loc>https://linuxinet.github.io/</loc>
     <lastmod>2022-08-07T07:01:11+00:00</lastmod>
   </url><url>
-    <loc>http://linuxinet.github.io/categories/</loc>
+    <loc>https://linuxinet.github.io/categories/</loc>
   </url>
 </urlset>
