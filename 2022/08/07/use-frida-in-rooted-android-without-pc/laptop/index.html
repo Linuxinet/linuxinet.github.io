@@ -111,28 +111,28 @@
 </code></pre>
 <h3 id="instructions">Instructions</h3>
 <p>First of all install Frida with pip, for other ways <a href="https://github.com/frida/frida/#two-ways-to-install">click here</a></p>
-<pre tabindex="0"><code>pip install frida-tools
-</code></pre><p>Now download latest Frida-server android binary from the frida github <a href="https://github.com/frida/frida/releases/">Link</a>.</p>
-<pre tabindex="0"><code>wget https://github.com/frida/frida/releases/download/15.2.2/frida-server-15.2.2-android-arm64.xz
-</code></pre><p>extract the file</p>
-<pre tabindex="0"><code>xz -d frida-server-15.2.2-android-arm64.xz
-</code></pre><p>now move that binary file to <code>/data/local/tmp/</code> folder by using termux or any root file explorer.</p>
-<pre tabindex="0"><code>sudo mv frida-server-15.2.2-android-arm64 /data/local/tmp/frida-server
-</code></pre><blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#ae81ff">pip install frida-tools</span>
+</span></span></code></pre></div><p>Now download latest Frida-server android binary from the frida github <a href="https://github.com/frida/frida/releases/">Link</a>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#ae81ff">wget https://github.com/frida/frida/releases/download/15.2.2/frida-server-15.2.2-android-arm64.xz</span>
+</span></span></code></pre></div><p>extract the file</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#ae81ff">xz -d frida-server-15.2.2-android-arm64.xz</span>
+</span></span></code></pre></div><p>now move that binary file to <code>/data/local/tmp/</code> folder by using termux or any root file explorer.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#ae81ff">sudo mv frida-server-15.2.2-android-arm64 /data/local/tmp/frida-server</span>
+</span></span></code></pre></div><blockquote>
 <p>here i used sudo to move the file to <code>/data/local/tmp</code>.
 so make sure you already have sudo in termux, otherwise install sudo with this command
 <code>pkg install tsu</code></p>
 </blockquote>
 <p>now change to root user in termux</p>
-<pre tabindex="0"><code>su
-</code></pre><p>change to the <strong>Frida-server</strong> binary location i.e, <code>/data/local/tmp/frida-server</code></p>
-<pre tabindex="0"><code>cd /data/local/tmp/
-</code></pre><p>give permission to that binary</p>
-<pre tabindex="0"><code>chmod 777 frida-server
-</code></pre><p><img src="images/root-su-data-local.png" alt="image">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#ae81ff">su</span>
+</span></span></code></pre></div><p>change to the <strong>Frida-server</strong> binary location i.e, <code>/data/local/tmp/frida-server</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#ae81ff">cd /data/local/tmp/</span>
+</span></span></code></pre></div><p>give permission to that binary</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#ae81ff">chmod 777 frida-server</span>
+</span></span></code></pre></div><p><img src="images/root-su-data-local.png" alt="image">
 now run frida-server listening on localhost as root user</p>
-<pre tabindex="0"><code>./frida-server -l 127.0.0.1:1234
-</code></pre><p>now open another tab and use frida cli tools we installed previously
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#ae81ff">./frida-server -l 127.0.0.1:1234</span>
+</span></span></code></pre></div><p>now open another tab and use frida cli tools we installed previously
 For more information on Frida usage visit <a href="https://frida.re/docs/quickstart/">here</a></p>
 
     </div>
